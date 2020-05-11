@@ -5,13 +5,15 @@ import { AppComponent } from './app.component';
 import { HeaderTitleComponent } from './header-title/header-title.component';
 import { ListSectionComponent } from './list-section/list-section.component';
 import { ParticlesComponent } from './particles/particles.component';
+import { FormLivreComponent } from './form-livre/form-livre.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderTitleComponent,
     ListSectionComponent,
-    ParticlesComponent
+    ParticlesComponent,
+    FormLivreComponent
   ],
   imports: [
     BrowserModule
